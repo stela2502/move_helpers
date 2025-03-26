@@ -1,9 +1,9 @@
 # Move Heplers
 
 Move helpers is a bundle of small scripts that should help with normal data handling on a (secure) Linux system.
-It is meant for not administartors to handleaccess rights to files and folders.
+It is meant for normal users to handleaccess rights to files and folders, but there are also some bioinformatic goodies included.
 
-All scripts will write a help string if called without options. All but rust-geo-prep. That one will just parse your whole folder structure ;-)
+All scripts will write a help string if called without options. All but **rust-geo-prep**. That one will just parse your whole folder structure ;-)
 
 ## Access Rights
 
