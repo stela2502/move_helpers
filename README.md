@@ -32,3 +32,24 @@ Later on this collection of scripts also gained some commonly usful bioinformati
   3. **rust-geo-prep** will collect all fastq.gz files in the directory structure - calculate md5 sums for them and put them into
   GEO prepared tables. See https://github.com/stela2502/rust-geo-prep for more info.
 
+# Usage
+
+The scripts are available on COSMOS-SENS. The tools are ment to be loaded as a SLURM module:
+
+First you need to activate our own modules:
+
+```
+module use /scale/gr01/shared/common/modules
+```
+
+Afterwards you can add the scripts to your path using 
+
+```
+module load move_helpers/1.0
+```
+
+If you do not want to use this as a module you can also call them from the path directly:
+``/scale/gr01/shared/common/software/move_helpers/1.0/bin/``
+
+
+I hope you cdan use the scripts!
