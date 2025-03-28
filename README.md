@@ -8,7 +8,7 @@ All scripts will write a help string if called without options. All but **rust-g
 ## Access Rights
 
  1. **allow_group_access.sh** is a bash script that adds group rights; r-x for folders and r-- to files.
-    this should be usful if you want to share data read only with people from a cretain group.
+    this should be usful if you want to share data read only with people from a certain group.
  2. **fix_owner.sh** will change the group of the files in the folder and also change access rights to read only.
  
 ## Backup
@@ -16,15 +16,15 @@ All scripts will write a help string if called without options. All but **rust-g
   1. **file_copy_tool** will savely copy files that match to a pattern from one folder to another.
      When run the second time this tool will replace all files in the source folder by soft links.
      This mean it is only a backup tool if run once. If run twice it is a way to separate your raw data from the scripts.
-  2. **revert_links** will revert the second step of the file_copy_tool.
+  2. **revert_links** will revert the second step of the **file_copy_tool**.
 
 ## SLURM jobs
 
- 1. **create_sbatch.sh** will create a sbatch script from your command.
+ 1. **create_sbatch.sh** will create a sbatch script from your command. This one I use all the time ;-)
 
 ## Bioinformatics
 
-Later on it also gained some common usful bioinformatics scripts:
+Later on this collection of scripts also gained some commonly usful bioinformatics scripts:
 
   1. **extract_gene_info** will collect all gene_id to gene_name connections in the gtf file you let it process.
   2. **perl_change_scripts.pl** can e.g. be used to lift your sbatch scripts from AURORA to COSMOS:
